@@ -22,7 +22,7 @@ public class Main {
     public static void task2(){
         System.out.println("Задача 2");
         for (int i = 10; i >= 1; i= i-1){
-            System.out.println("Число: "+ i);
+            System.out.println("Число: " + i);
         }
         System.out.println();
     }
@@ -30,13 +30,17 @@ public class Main {
     public static void task3(){
         System.out.println("Задача 3");
         for (int i = 0; i <= 17; i = i + 2){
-            System.out.println("Число: "+ i);
+            System.out.println("Число: " + i);
         }
         System.out.println();
     }
 
     public static void task4(){
-        System.out.println("Задача 1");
+        System.out.println("Задача 4");
+        for (int i = 10; i >= -10; i = i - 2){
+            System.out.println("Число: " + i);
+        }
+        System.out.println();
     }
 
     public static void task5(){
