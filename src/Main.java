@@ -28,7 +28,11 @@ public class Main {
     }
 
     public static void task3(){
-        System.out.println("Задача 1");
+        System.out.println("Задача 3");
+        for (int i = 0; i <= 17; i = i + 2){
+            System.out.println("Число: "+ i);
+        }
+        System.out.println();
     }
 
     public static void task4(){
