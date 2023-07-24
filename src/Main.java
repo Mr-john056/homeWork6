@@ -95,6 +95,11 @@ public class Main {
 
     public static void task10(){
         System.out.println("Задача 10");
+        int number = 2;
+        for (int i = 1; i <= 10; i++) {
+            int totalNumber = number * i;
+            System.out.println(number + " * " + i + " = " + totalNumber);
+        }
     }
 }
 
